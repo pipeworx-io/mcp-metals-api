@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/metals-api",
   "title": "Metals Api",
   "description": "Metals API MCP — wraps Metals-API (metals-api.com)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/metals-api",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-metals-api",
