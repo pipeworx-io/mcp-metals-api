@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-metals-api",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Metals API MCP — wraps Metals-API (metals-api.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-metals-api": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "metals-api"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-metals-api.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/metals-api",
   "pipeworx": {
-    "sourceHash": "v1-fdd2cb3576e6acb5fea32b066cfda6caf1930bf1354ffcc57226d8722bb626ca",
-    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
+    "mode": "gateway",
+    "slug": "metals-api",
+    "gatewaySlug": "metals-api",
+    "sourceHash": "v1-736e5e4fb5c6ab4647a022e2778d394051d976e1264fc59f8cd66ac1e082af4f",
+    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
   }
 }
