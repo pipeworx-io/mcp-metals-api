@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-metals-api",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Metals API MCP — wraps Metals-API (metals-api.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "metals-api",
     "gatewaySlug": "metals-api",
-    "sourceHash": "v1-736e5e4fb5c6ab4647a022e2778d394051d976e1264fc59f8cd66ac1e082af4f",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-9c632215ba4e58a82bd7e4f3b4753b4dc498a74081653d5911dad6bec6a7bd5e",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
