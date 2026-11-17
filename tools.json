@@ -1,6 +1,6 @@
 [
   {
-    "name": "get_latest",
+    "name": "metals_api_get_latest",
     "description": "Get the latest precious and base metal spot prices (gold, silver, platinum, palladium, copper, etc.). Prices are per troy ounce. Optionally specify base currency and metal symbols.",
     "inputSchema": {
       "type": "object",
@@ -24,7 +24,7 @@
     }
   },
   {
-    "name": "get_historical",
+    "name": "metals_api_get_historical",
     "description": "Get metal prices for a specific historical date. Returns spot prices per troy ounce for that day. Useful for tracking price changes or computing returns.",
     "inputSchema": {
       "type": "object",

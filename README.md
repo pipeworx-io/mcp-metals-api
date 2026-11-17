@@ -1,15 +1,15 @@
 # mcp-metals-api
 
-Metals API MCP — wraps Metals-API (metals-api.com)
+Unofficial Metals API MCP — wraps Metals-API (metals-api.com)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2007+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `get_latest` | Get the latest precious and base metal spot prices (gold, silver, platinum, palladium, copper, etc.). Prices are per troy ounce. Optionally specify base currency and metal symbols. |
-| `get_historical` | Get metal prices for a specific historical date. Returns spot prices per troy ounce for that day. Useful for tracking price changes or computing returns. |
+| `metals_api_get_latest` | Get the latest precious and base metal spot prices (gold, silver, platinum, palladium, copper, etc.). Prices are per troy ounce. Optionally specify base currency and metal symbols. |
+| `metals_api_get_historical` | Get metal prices for a specific historical date. Returns spot prices per troy ounce for that day. Useful for tracking price changes or computing returns. |
 
 ## Quick Start
 
@@ -55,7 +55,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1865+ data sources. The
+Both URLs reach the same gateway and the same 2007+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
